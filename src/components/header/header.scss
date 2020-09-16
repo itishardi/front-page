@@ -1,0 +1,38 @@
+.top-header {
+    background-color: #404040;
+    color: #efefef;
+    width: 100vw;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    .header-logo {
+        height: 28px;
+        margin-top: 3px;
+        pointer-events: none;
+        float: left;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+        .header-logo {
+          animation: App-logo-spin infinite 20s linear;
+        }
+    }
+    @keyframes App-logo-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+    }
+    .title {
+        width: 100px;
+        // margin-left: 10px;
+        float: left;
+        font-weight: 500;
+        cursor: pointer;
+        &:hover {
+            background-color: #2b2b2b;
+        }
+    }
+}
