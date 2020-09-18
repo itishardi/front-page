@@ -18,7 +18,7 @@ export default class MusicPlayer extends Component {
                 </div>
                 <ReactAudioPlayer
                     src='https://hardi.oss-cn-hangzhou.aliyuncs.com/front-page/%E5%B2%9B%E5%B1%BF%E5%BF%83%E6%83%85%20-%208%2B8%3D8.mp3'
-                    autoPlay
+                    autoPlay = {false}
                     controls
                 />
             </div>

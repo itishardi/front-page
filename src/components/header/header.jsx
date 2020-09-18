@@ -9,7 +9,7 @@ export default class HeaderComponent extends Component {
     return (
       <header className="top-header">
         <img src={logo} className="header-logo" alt="logo" />
-        <div className="title">HOME</div>
+        <div className="title">_hardi</div>
         <MusicPlayer />
       </header>
     )
