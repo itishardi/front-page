@@ -1,0 +1,20 @@
+.in-construction-page {
+    position: relative;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 231,223, 1);
+
+    .card {
+        display: block;
+        background-color: rgba(253,245,231,0.9);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .content {
+            font-family: ui-monospace;
+        }
+    }
+}
